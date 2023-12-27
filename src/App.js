@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import hotBg from "./assets/hotbg.jpg";
 import snowBg from "./assets/snowbg.jpg";
 import Description from "./components/Description";
-import { getFormattedWeatherData } from "./weatherService";
+import { getFormattedWeatherData } from "./api/weatherService";
 
 function App() {
   const [city, setCity] = useState("Kakkancheri");
